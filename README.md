@@ -1,2 +1,4 @@
 # landing-page
-A page created from scratch using HTML &amp; CSS
+A page created from scratch using HTML & CSS.
+
+
