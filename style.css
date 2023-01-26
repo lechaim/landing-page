@@ -20,9 +20,20 @@ nav{
     width: 100%;
 }
 
+nav img{
+    height: 40px;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 li{
     list-style-type: none;  
     display: inline;
+    margin: 0 11px;
 }
 
 a, a:hover, a:focus, a:active {
@@ -35,39 +46,57 @@ a, a:hover, a:focus, a:active {
     background-color: bisque;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     padding: 50px;
-    
+    gap: 100px;
+}
+
+.content1 img{
+    height: 175px;
+    width: 300px;
+}
+
+.left h2, p{
+    margin: 0;
 }
 
 .content2{
+    width: 100%;
     background-color: aquamarine;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    padding: 25px;
 
 }
 
-img{
+
+.images{
+    display:flex;
+    gap: 35px;
+}
+
+.images img{
     height: 175px;
     width: 150px;
 }
 
-.images{
-    display:flex;
+img{
+    border-radius: 12%;
     
 }
 
-.image{
-    margin: 0 10px;
+.content3{
+    width: 100%;
+    height: 220px;
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.content3{
-    background-color: #e5e7eb;
-    width: 100%;
-}
+
 
 .paragraph{
     text-align: center;
@@ -75,26 +104,51 @@ img{
 }
 
 .content4{
-    background-color: red;
-    padding: 20px ;
+    background-color: aquamarine;
+    padding: 50px;
     width: 100%;
     display: flex;
     justify-content: center; 
+    align-items: center;
     
 
 }
 
 .box4{
-    background-color: aqua;
+    background-color: bisque;
+    height: 100px;
     display: flex;
-    height: 200px;
-    width: 300px;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 80%;
+}
+
+.box4 button{
+    height: 25px;
+    width: 80px;
+    margin-top: 35px;
+    color: white;
+    background-color: transparent;
+    border-radius: 12%;
+    border-color: white;
+    color: black;
+}
+
+.box4 .left h1{
+    margin-bottom: 0;
+}
+
+.box4 .left p{
+    margin-top: 0;
 }
 
 footer{
     width: 100%;
     height: 30px;
-    background-color: lightblue;
+    background-color: #1f2937;
     text-align: center;
+    padding-top: 15px;
+    color: white;
 
 }
